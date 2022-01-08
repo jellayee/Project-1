@@ -37,8 +37,6 @@ def mood_quote_bot(mood):
     quote = quotes[quote_index] 
     return quote
 
-# mood = input("How are you feeling? sad/giving up/happy?")
-# result = mood_quote_bot(mood)
 print(mood_quote_bot(mood))
 
 
